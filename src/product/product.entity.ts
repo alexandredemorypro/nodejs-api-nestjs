@@ -8,6 +8,9 @@ export class Product {
     @Column('text')
     family: string;
 
+    @Column('int')
+    price_per_day: number;
+
     @Column('text')
     name: string;
 

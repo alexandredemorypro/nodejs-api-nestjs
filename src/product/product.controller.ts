@@ -1,8 +1,10 @@
 import { Controller, Post, Body } from '@nestjs/common';
+import { ApiTags } from '@nestjs/swagger';
 import { ProductService } from './product.service';
 import { Product } from './product.entity';
 import { Rental } from '../rental/rental.entity';
 
+@ApiTags('product')
 @Controller()
 export class ProductController {
     constructor(private readonly productService: ProductService) { }
