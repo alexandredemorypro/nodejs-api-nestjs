@@ -1,8 +1,12 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProductModule } from './product/product.module';
 
 @Module({
-  imports: [ProductModule],
+  imports: [
+    TypeOrmModule.forRoot(),
+    ProductModule,
+  ],
   controllers: [],
   providers: [],
 })

@@ -4,9 +4,6 @@ WORKDIR /backend-test-api
 ADD package.json /backend-test-api/package.json
 RUN npm config set registry http://registry.npmjs.org
 RUN npm install
-
 ADD . /backend-test-api
-
-EXPOSE 3000
 
 CMD ["npm", "run", "start"]
