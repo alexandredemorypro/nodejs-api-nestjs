@@ -15,6 +15,7 @@ $ docker-compose build
 
 # swagger
 See (http://localhost:3000/swagger)
+Use Postman (https://www.postman.com/downloads/) !
 
 ```bash
 # development
@@ -52,7 +53,7 @@ dates format, currency, discounts, prices, and more...
 Use of the Moment library to manage dates and timezone as we want.
 
 # Stripe
-Stripe, to manage payment in the fastest way.
+Stripe, to manage payment in the fastest way. Or the company will use its system ?
 
 # Cloud ?
 Should we use an Amazon service to scale on demand ?
@@ -62,5 +63,13 @@ There are some errors to clean when npm install.
 
 # DB
 Change root user by a normal user with correct rights.
+Should we index rental dates columns ?
+Try to use entity relations
 
-# Module CRUD de Nestjs
+# CRUD module for Nestjs
+
+# Env
+Do a proper dev env and a prod env.
+
+# state machine pattern
+I have to check for this foreach steps of the rent. It can feet the needs.
