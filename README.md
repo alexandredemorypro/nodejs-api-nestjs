@@ -1,6 +1,6 @@
 ## Description
 
-[Nest](https://github.com/alexandredemorypro/nest-api-test-lizee) Availability API for Lizee test.
+[Nest](https://github.com/alexandredemorypro/nodejs-api-nestjs) Availability API.
 
 ## Prerequisite
 Get Docker at (https://docs.docker.com/get-docker/)
@@ -35,7 +35,7 @@ Docker, to get everything isolated and easy to use.
 Robust and fast for free!
 
 # Nestjs
-I use it mainly to manage concurrents requests to backend.
+I use it mainly to manage concurrents requests to backend and for its syntax.
 But also because it help to do a very well structured backend, domain oriented.
 
 
@@ -53,18 +53,16 @@ dates format, currency, discounts, prices, and more...
 Use of the Moment library to manage dates and timezone as we want.
 
 # Stripe
-Stripe, to manage payment in the fastest way. Or the company will use its system ?
+Stripe, to manage payment in the easiest way. Or the company will use its system ?
 
 # Cloud ?
-Should we use an Amazon service to scale on demand ?
+Should we use an Amazon service to scale on demand ? (Serverless)
 
 # Cleaning
 There are some errors to clean when npm install.
 
 # DB
 Change root user by a normal user with correct rights.
-Should we index rental dates columns ?
-Try to use entity relations
 
 # CRUD module for Nestjs
 
